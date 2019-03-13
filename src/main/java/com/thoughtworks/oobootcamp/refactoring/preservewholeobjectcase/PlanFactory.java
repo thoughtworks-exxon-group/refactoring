@@ -2,7 +2,7 @@ package com.thoughtworks.oobootcamp.refactoring.preservewholeobjectcase;
 
 public class PlanFactory {
 
-  public Plan generatePlan(String high, String low) {
+  public Plan generatePlan(DayRange dayRange) {
     return new Plan();
   }
 }

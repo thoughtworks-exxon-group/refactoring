@@ -11,7 +11,7 @@ public class EBook {
     this.readings.addAll(readings);
   }
 
-  public Object lastReading() {
-    return readings.get(readings.size() - 1);
+  public Reading lastReading() {
+    return (Reading)readings.get(readings.size() - 1);
   }
 }

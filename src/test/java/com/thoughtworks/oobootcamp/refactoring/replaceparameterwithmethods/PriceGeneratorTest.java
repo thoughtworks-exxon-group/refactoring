@@ -9,7 +9,7 @@ class PriceGeneratorTest {
   void should_get_final_price__when_call_getFinalPrice_given_price_is_2_and_quality_is_99() {
     int quality = 99;
     PriceGenerator priceGenerator = new PriceGenerator(quality);
-    double finalPrice = priceGenerator.getFinalPrice(2, priceGenerator.getDiscountLevel());
+    double finalPrice = priceGenerator.getFinalPrice(2);
 
     Assertions.assertEquals(2 * 0.85, finalPrice);
   }

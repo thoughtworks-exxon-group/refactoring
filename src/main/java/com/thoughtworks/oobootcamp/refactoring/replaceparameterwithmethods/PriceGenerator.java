@@ -13,7 +13,7 @@ public class PriceGenerator {
   }
 
 
-  public double getFinalPrice(double itemPrice, double discountLevel) {
-    return itemPrice * discountLevel;
+  public double getFinalPrice(double itemPrice) {
+    return itemPrice * getDiscountLevel();
   }
 }
